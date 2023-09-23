@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset  */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        /* background-position: 50% 50%;
+        background-repeat: repeat; */
+        background-size: cover;
+        /*  when the photo doesn't fit  */
+        font-family: 'Anton', sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 31px;
+        top: 8px;
+
+    }
+
+    .left img {
+        width: 96px;
+        /* filter: invert(100%); */    /*  ---> turns black img to white and white to black */ 
+
+    }
+
+    .left div {
+        text-align: center;
+        color: black;
+        line-height: 19px;
+        font-size: 15px;
+
+    }
+
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 5px auto;
+        /* border: 2px solid rgb(0, 255, 0); */
+    }
+
+    .right {
+        position: absolute;
+        right: 24px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(255, 251, 0); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .btn {
+        padding: 2px 20px;
+        margin: 0px 3px;
+        color: white;
+        background-color: black;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .btn:hover {
+        background-color: rgb(109, 107, 107);
+    }
+
+    .container {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 100px 25px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 20px;
+        color: black;
+
+    }
+
+    .form.group input {
+        text-align: center;
+        display: block;
+        width: 485px;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 13px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+
+
+    }
+
+    .container button {
+        display: block;
+        width: 24%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpeg" alt="">
+            <div>Rishav Fitness</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Delhi Now</h1>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Email ID">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
